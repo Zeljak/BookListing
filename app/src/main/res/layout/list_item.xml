@@ -6,15 +6,15 @@
     android:layout_height="?android:attr/listPreferredItemHeight"
     android:background="@color/colorPrimary"
     android:orientation="horizontal"
-    android:paddingEnd="16dp"
-    android:paddingLeft="16dp"
-    android:paddingRight="16dp"
-    android:paddingStart="16dp">
+    android:paddingEnd="12dp"
+    android:paddingLeft="12dp"
+    android:paddingRight="12dp"
+    android:paddingStart="12dp">
 
 <TextView
 android:id="@+id/circle"
-android:layout_width="16dp"
-android:layout_height="16dp"
+android:layout_width="12dp"
+android:layout_height="12dp"
 android:layout_gravity="center_vertical"
 android:background="@drawable/circle"
 android:gravity="center"/>
@@ -34,9 +34,10 @@ android:gravity="center"/>
     <TextView
         android:id="@+id/book_name"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="20dp"
+        android:maxLines="2"
         android:textAllCaps="true"
-        android:textSize="18sp"
+        android:textSize="16sp"
         android:textStyle="bold"
         android:textColor="@color/colorPrimaryDark"
         tools:text="Book name" />
@@ -44,18 +45,13 @@ android:gravity="center"/>
     <TextView
         android:id="@+id/book_author"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="20dp"
+        android:maxLines="2"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="14sp"
         tools:text="Author name" />
 
-    <TextView
-        android:id="@+id/book_description"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:maxLines="3"
-        android:textSize="12sp"
-        tools:text="Book description"/>
+
 
     </LinearLayout>
 </LinearLayout>

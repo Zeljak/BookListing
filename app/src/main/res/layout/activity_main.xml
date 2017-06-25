@@ -14,11 +14,12 @@
 
     <ListView
         android:id="@+id/books_list"
+        android:layout_marginTop="60dp"
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:divider="@color/colorDivider"
-        android:dividerHeight="0.5dp"/>
+        android:dividerHeight="1dp"/>
 
     <!-- Empty view is only visible when the list has no items.-->
     <TextView
