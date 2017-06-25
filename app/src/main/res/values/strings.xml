@@ -3,4 +3,10 @@
 
     <!-- Hint for a SearchView -->
     <string name="search">Find your book</string>
+
+    <!-- When there is no internet connection. -->
+    <string name="no_internet">No internet connection.</string>
+
+    <!-- Text to display in the list when there are no books [CHAR LIMIT=NONE] -->
+    <string name="no_books">No books found.</string>
 </resources>

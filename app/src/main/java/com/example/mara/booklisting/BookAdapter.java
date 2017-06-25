@@ -49,7 +49,7 @@ public class BookAdapter extends ArrayAdapter<Book> {
 
         // Find the TextView with the book_name ID and set the name of the current book
         TextView nameTextView = (TextView) listItemView.findViewById(R.id.book_name);
-        nameTextView.setText(currentBook.getName());
+        nameTextView.setText(currentBook.getTitle());
 
         // Find the TextView with the book_author ID and set the author of the current book
         TextView authorTextView = (TextView) listItemView.findViewById(R.id.book_author);

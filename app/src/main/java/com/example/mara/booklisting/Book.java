@@ -7,7 +7,7 @@ package com.example.mara.booklisting;
 public class Book {
 
     //Create a variable for the name of the book
-    private String mName;
+    private String mTitle;
 
     //Create a variable for the author of the book
     private String mAuthor;
@@ -24,16 +24,16 @@ public class Book {
      * @param description: the description of the book
      * @param link: the info link of the book
      */
-    public Book(String name, String author, String description, String url) {
-        mName = name;
+    public Book(String title, String author, String description, String url) {
+        mTitle = title;
         mAuthor = author;
         mDescription = description;
         mUrl = url;
     }
 
     //Returns the name of the book
-    public String getName() {
-        return mName;
+    public String getTitle() {
+        return mTitle;
     }
 
     //Returns the author of the book
