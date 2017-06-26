@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Layout for a single list item that displays one book -->
+<?xml version="1.0" encoding="utf-8"?><!-- Layout for a single list item that displays one book -->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -11,13 +10,13 @@
     android:paddingRight="12dp"
     android:paddingStart="12dp">
 
-<TextView
-android:id="@+id/circle"
-android:layout_width="12dp"
-android:layout_height="12dp"
-android:layout_gravity="center_vertical"
-android:background="@drawable/circle"
-android:gravity="center"/>
+    <TextView
+        android:id="@+id/circle"
+        android:layout_width="12dp"
+        android:layout_height="12dp"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/circle"
+        android:gravity="center" />
 
 
     <LinearLayout
@@ -30,27 +29,15 @@ android:gravity="center"/>
         android:orientation="vertical">
 
 
+        <TextView
+            android:id="@+id/book_name"
+            tools:text="Book name"
+            style="@style/book_title" />
 
-    <TextView
-        android:id="@+id/book_name"
-        android:layout_width="wrap_content"
-        android:layout_height="20dp"
-        android:maxLines="2"
-        android:textAllCaps="true"
-        android:textSize="16sp"
-        android:textStyle="bold"
-        android:textColor="@color/colorPrimaryDark"
-        tools:text="Book name" />
-
-    <TextView
-        android:id="@+id/book_author"
-        android:layout_width="wrap_content"
-        android:layout_height="20dp"
-        android:maxLines="2"
-        android:textColor="@color/colorPrimaryDark"
-        android:textSize="14sp"
-        tools:text="Author name" />
-
+        <TextView
+            android:id="@+id/book_author"
+            tools:text="Author name"
+            style="@style/author" />
 
 
     </LinearLayout>

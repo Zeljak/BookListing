@@ -9,12 +9,12 @@ import android.net.NetworkInfo;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.widget.SearchView;
 import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.ProgressBar;
+import android.widget.SearchView;
 import android.widget.TextView;
 
 import java.util.ArrayList;
@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
     /**
      * URL for books data from Google Books API
      */
-    private static final String BOOK_REQUEST_URL = "https://www.googleapis.com/books/v1/volumes?q={search%40terms}";
+    private static final String BOOK_REQUEST_URL = "https://www.googleapis.com/books/v1/volumes?q=android";
 
     /**
      * Constant value for the book loader ID.
